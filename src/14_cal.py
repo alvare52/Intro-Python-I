@@ -36,3 +36,5 @@ month = user_input[1]
 year = user_input[2]
 print(user_input) # list of strings containing each argument
 print(month, year)
+cal = calendar.TextCalendar
+cal.prmonth(year, month)
